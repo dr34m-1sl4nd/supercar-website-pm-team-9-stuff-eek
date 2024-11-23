@@ -95,10 +95,19 @@ a {
     color: var(--white);
 }
 
-.nav-img {
+.nav-img-right {
     display: flex;
     width: 6%;
     height: 6%;
     object-fit: contain;
+    margin-right: 25%;
+}
+
+.nav-img-left {
+    display: flex;
+    width: 6%;
+    height: 6%;
+    object-fit: contain;
+    margin-left: ;
 }
 /* END OF NAV BAR */
