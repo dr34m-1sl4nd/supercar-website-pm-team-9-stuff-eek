@@ -28,6 +28,7 @@ body {
     overflow-x: hidden;
 }
 
+/* PURELY NAV BAR HERE */
 nav {
     display: flex;
     font-family: "Barlow";
@@ -93,3 +94,11 @@ input {
 a {
     color: var(--white);
 }
+
+.nav-img {
+    display: flex;
+    width: 6%;
+    height: 6%;
+    object-fit: contain;
+}
+/* END OF NAV BAR */
