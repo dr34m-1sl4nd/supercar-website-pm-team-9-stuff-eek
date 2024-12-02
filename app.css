@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-    /* font-weight: 100;
+/* font-weight: 100;
     font-style: normal;
-    saving that 4 later */
+    saving that 4 later winky emoji  */
 
 :root {
     --black: #000;
@@ -28,6 +28,16 @@ body {
     overflow-x: hidden;
 }
 
+/* TEXT THINGS THAT I DON'T KNOW WHERE ELSE TO PUT */
+h2 {
+    display: flex;
+    font-family: "Barlow";
+    font-weight: 500;
+    font-size: 50px;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* columns and rows */
 
 .col {
@@ -40,6 +50,53 @@ body {
 .one-fifth {
     display: flex;
     width: calc(100% / 5.2);
+}
+
+.one-half {
+    display: flex;
+    width: calc(100% / 2.2);
+}
+
+.row-offwhite {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: var(--white);
+    align-items: center;
+    justify-content: center;
+}
+
+/* IMAGES */
+.img-full {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    width: 100%;
+    margin: 0;
+}
+
+.img-full>img {
+    display: flex;
+    width: 100%;
+}
+
+.img-half {
+    display: flex;
+    width: 100%;
+}
+
+.image-fifth {
+    display: flex;
+    width: 100%;
+}
+
+.img-right {
+    display: flex;
+    width: 4%;
+    height: 3%;
+    object-fit: contain;
+    margin-left: 5%;
+    justify-content: flex-end;
 }
 
 /* PURELY NAV BAR HERE */
@@ -125,6 +182,7 @@ a {
     object-fit: contain;
     margin-right: 5%;
 }
+
 /* END OF NAV BAR */
 
 /* footer start */
@@ -143,42 +201,42 @@ footer {
     margin-top: 100%;
 }
 
-footer > section:nth-child(1) {
+footer>section:nth-child(1) {
     display: flex;
     margin-bottom: 4vw;
 }
 
-footer > section:nth-child(1) > img {
+footer>section:nth-child(1)>img {
     display: flex;
     min-width: 8vw;
 }
 
-footer > section:nth-child(2) {
+footer>section:nth-child(2) {
     display: flex;
     margin-top: 5vw;
 }
 
-footer > section:nth-child(2) > img {
+footer>section:nth-child(2)>img {
     display: flex;
     min-width: 7vw;
 }
 
-footer > section:nth-child(2) > a {
+footer>section:nth-child(2)>a {
     display: flex;
     margin-bottom: 1.5vw;
 }
 
-footer > section:nth-child(3) {
+footer>section:nth-child(3) {
     display: flex;
     margin-top: 5vw;
 }
 
-footer > section:nth-child(4) {
+footer>section:nth-child(4) {
     display: flex;
     margin-top: 5vw;
 }
 
-footer > section:nth-child(5) > img {
+footer>section:nth-child(5)>img {
     display: flex;
     max-width: 6vw;
     margin-bottom: 3vw;
@@ -189,14 +247,15 @@ footer > section:nth-child(5) > img {
     width: 6vw;
 }
 
-.one-fifth > a {
+.one-fifth>a {
     display: flex;
     font-size: 1.5vw;
     text-decoration: none;
     margin-bottom: 1rem;
 }
 
-section > a {
+section>a {
     padding: 4rem;
 }
+
 /* footer end */
