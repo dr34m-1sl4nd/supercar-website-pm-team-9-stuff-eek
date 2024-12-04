@@ -37,11 +37,12 @@ body {
 
 h2 {
     font-family: "Barlow";
-    font-weight: 500;
+    font-weight: 700;
     font-size: 50px;
     flex-grow: 1;
     text-align: center;
     transform: translatex(30px);
+    color: var(--black);
 }
 
 h3 {
@@ -51,6 +52,18 @@ h3 {
     font-size: 50px;
     flex-direction: row;
     justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+
+h3>a {
+    color: var(--black);
+    text-decoration: none;
+    transition: color ease-out 150ms;
+}
+
+h3>a:hover {
+    color: var(--red);
 }
 
 /* columns and rows */
@@ -77,7 +90,7 @@ h3 {
     background-color: var(--white);
     margin: 30px;
     font-size: 25px;
-    box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     height: 450px;
     align-items: center;
     margin-bottom: 15px;
@@ -94,7 +107,7 @@ h3 {
     background-color: var(--white);
     align-items: center;
     justify-content: center;
-    box-shadow: 0 3px 5px rgba(0,0,0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* IMAGES */
@@ -220,6 +233,14 @@ a {
 /* END OF NAV BAR */
 
 /* ANCHOR TAG CLASSES FOR THOSE CLICKY CLICK IMAGES */
+
+img>a {
+    display: flex;
+    width: 6%;
+    height: 6%;
+    object-fit: contain;
+    margin-right: 5%;
+}
 
 /* footer start */
 footer {
