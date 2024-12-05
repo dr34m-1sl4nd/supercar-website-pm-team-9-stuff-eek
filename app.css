@@ -56,6 +56,17 @@ h3 {
     flex-direction: column;
 }
 
+h4 {
+    display: flex;
+    font-family: "Barlow Semi Condensed";
+    font-weight: 400;
+    font-size: 35px;
+    flex-direction: row;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+
 h3>a {
     color: var(--black);
     text-decoration: none;
@@ -63,6 +74,16 @@ h3>a {
 }
 
 h3>a:hover {
+    color: var(--red);
+}
+
+h4>a {
+    color: var(--black);
+    text-decoration: none;
+    transition: color ease-out 150ms;
+}
+
+h4>a:hover {
     color: var(--red);
 }
 
