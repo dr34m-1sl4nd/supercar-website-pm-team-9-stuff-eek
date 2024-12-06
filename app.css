@@ -42,6 +42,75 @@ body {
     font-style: normal;
 }
 
+span {
+    display: flex;
+    padding: 1vw;
+    justify-content: space-around;
+    margin: 3px;
+}
+
+.dot-white {
+    height: 25px;
+    width: 25px;
+    background-color: var(--white);
+    border-radius: 50%;
+    display: inline-block;
+    border-color: var(--black);
+    border-style: solid;
+}
+
+.dot-black {
+    height: 25px;
+    width: 25px;
+    background-color: var(--black);
+    border-radius: 50%;
+    display: inline-block;
+    border-color: var(--black);
+    border-style: solid;
+}
+
+.dot-red {
+    height: 25px;
+    width: 25px;
+    background-color: var(--red);
+    border-radius: 50%;
+    display: inline-block;
+    border-color: var(--black);
+    border-style: solid;
+}
+
+.dot-blue {
+    height: 25px;
+    width: 25px;
+    background-color: var(--blue);
+    border-radius: 50%;
+    display: inline-block;
+    border-color: var(--black);
+    border-style: solid;
+}
+
+select {
+    cursor: pointer;
+    /* figure out how the pointer size changes. He's WAY too small. */
+}
+
+option {
+    /* need border stuff here */
+}
+
+.Quantity {
+    display: flex;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Barlow";
+    font-weight: 700;
+    background-color: var(--gray);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--black);
+}
+
 h2 {
     font-family: "Barlow";
     font-weight: 700;
@@ -134,6 +203,16 @@ h4>a:hover {
     margin: 15px;
 }
 
+.one-third {
+    display: flex;
+    width: calc(100% / 3);
+    background-color: var(--white);
+    margin: 15px;
+    font-size: 25px;
+    height: 450px;
+    align-items: center;
+}
+
 .one-half {
     display: flex;
     width: calc(100% / 2);
@@ -192,6 +271,7 @@ h4>a:hover {
     transform: translatex(680px);
 }
 
+.img-product {}
 
 
 /* PURELY NAV BAR HERE */
