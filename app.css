@@ -95,7 +95,23 @@ select {
 }
 
 option {
-    /* need border stuff here */
+    display: flex;
+    border-color: var(--black);
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.Description {
+    display: flex;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Barlow";
+    font-weight: 700;
+    background-color: var(--gray);
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--black);
 }
 
 .Quantity {
@@ -117,7 +133,7 @@ h2 {
     font-size: 60px;
     flex-grow: 1;
     text-align: center;
-    transform: translatex(406px);
+    transform: translatex(370px);
     color: var(--black);
 }
 
@@ -298,6 +314,7 @@ nav {
     margin: 1.5rem;
     padding: 1rem;
     font-size: 2.5vw;
+    transform: translatex(50px);
 }
 
 .selected {
@@ -317,6 +334,7 @@ nav {
     margin: 1.5rem;
     padding: 1rem;
     font-size: 4.5vw;
+    transform: translatex(50px);
 }
 
 .search-deco {
@@ -337,6 +355,7 @@ input {
     font-family: "Barlow";
     font-weight: 500;
     font-style: normal;
+    transform: translatex(50px);
 }
 
 a {
@@ -346,18 +365,22 @@ a {
 
 .nav-img-right {
     display: flex;
-    width: 6%;
-    height: 6%;
+    width: 30%;
+    height: 50%;
     object-fit: contain;
-    margin-left: 5%;
+    justify-content: flex-end;
+    margin-right: 11px;
+    transform: translatex(160px);
 }
 
 .nav-img-left {
     display: flex;
-    width: 6%;
-    height: 6%;
+    width: 50%;
+    height: 50%;
     object-fit: contain;
-    margin-right: 5%;
+    justify-content: flex-end;
+    margin-right: 11px;
+    transform: translatex(95px);
 }
 
 /* END OF NAV BAR */
