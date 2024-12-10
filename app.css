@@ -24,6 +24,7 @@
     --gray: #BFBFBF;
     --red: #EA1022;
     --blue: #1A00FF;
+    --light-gray: #D9D9D9;
     --dark-gray: #393939;
     --dull-red: #bc8888;
 }
@@ -90,8 +91,16 @@ span {
 }
 
 select {
+    display: flex;
+    width: 100px;
     cursor: pointer;
-    /* figure out how the pointer size changes. He's WAY too small. */
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    border-radius: 44px;
+    padding: 0.5rem;
+    margin-right: 14px;
+    text-align: center;
 }
 
 option {
@@ -99,18 +108,47 @@ option {
     border-color: var(--black);
     border-style: solid;
     border-radius: 4px;
+    background-color: var(--off-white);
+}
+
+option:hover {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+option:hover {
+    background-color: var(--blue);
+    color: var(--black);
 }
 
 .Description {
     display: flex;
-    width: 300px;
+    width: 200px;
     text-align: center;
     font-size: 25px;
     font-family: "Barlow";
     font-weight: 700;
     background-color: var(--white);
     text-align: left;
-    margin: 30px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    padding: 1rem;
+}
+
+.Details {
+    display: flex;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Barlow";
+    font-weight: 700;
+    background-color: var(--white);
+    text-align: left;
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 1px;
+    padding: 1rem;
 }
 
 .Quantity {
@@ -120,10 +158,27 @@ option {
     font-size: 25px;
     font-family: "Barlow";
     font-weight: 700;
-    background-color: var(--gray);
+    background-color: var(--light-gray);
     border-style: solid;
     border-width: 2px;
     border-color: var(--black);
+}
+
+.product-button-unselected {
+    display: flex;
+    margin: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: var(--light-gray);
+    font-family: "Barlow";
+    font-weight: 700;
+    border-radius: 30px;
 }
 
 h2 {
@@ -224,7 +279,7 @@ h4>a:hover {
     background-color: var(--white);
     margin: 15px;
     font-size: 25px;
-    height: 450px;
+    height: 500px;
     align-items: center;
 }
 
