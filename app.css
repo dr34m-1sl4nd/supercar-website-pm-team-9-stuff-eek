@@ -47,7 +47,12 @@ span {
     display: flex;
     padding: 1vw;
     justify-content: space-around;
-    margin: 3px;
+    margin: 1px;
+}
+
+.better-space {
+    display: flex;
+    margin-right: 5px;
 }
 
 .dot-white {
@@ -131,6 +136,7 @@ option:hover {
     background-color: var(--white);
     text-align: left;
     margin: 15px;
+    margin-right: 250px;
     margin-top: 30px;
     margin-bottom: 1px;
     padding: 1rem;
@@ -146,6 +152,7 @@ option:hover {
     background-color: var(--white);
     text-align: left;
     margin: 15px;
+    margin-right: 200px;
     margin-top: 30px;
     margin-bottom: 1px;
     padding: 1rem;
@@ -166,7 +173,9 @@ option:hover {
 
 .qty {
     display: flex;
-    transform: translateX(-35px);
+    align-items: center;
+    justify-content: left;
+    margin-right: 70px;
 }
 
 .product-button-unselected {
@@ -185,7 +194,7 @@ option:hover {
     font-weight: 700;
     border-radius: 30px;
     color: var(--gray);
-    margin-right: 130px;
+    margin-right: 170px;
 }
 
 h2 {
@@ -231,14 +240,15 @@ h5 {
     flex-direction: column;
     margin: 0%;
     margin-top: 15px;
-    margin-right: 85px;
+    margin-right: 110px;
 }
 
 .product-price {
     display: flex;
     text-align: left;
-    margin-right: 210px;
+    margin-right: 280px;
     font-size: 35px;
+    font-weight: 600;
 }
 
 .strong {
@@ -353,7 +363,7 @@ h4>a:hover {
     object-fit: contain;
     justify-content: flex-end;
     margin-right: 11px;
-    transform: translatex(680px);
+    transform: translatex(610px);
 }
 
 .img-product {
@@ -525,7 +535,9 @@ footer>section:nth-child(5)>img {
 
 .footer-icon {
     display: flex;
+    transform: translateY(60px);
     width: 6vw;
+    margin: 50px;
 }
 
 .one-fifth>a {
@@ -535,8 +547,6 @@ footer>section:nth-child(5)>img {
     margin-bottom: 1rem;
 }
 
-section>a {
-    padding: 4rem;
-}
+
 
 /* footer end */
