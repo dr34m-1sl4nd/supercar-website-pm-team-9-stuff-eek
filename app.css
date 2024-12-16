@@ -178,7 +178,7 @@ option:hover {
     margin-right: 70px;
 }
 
-.product-button-unselected {
+.product-button-selected {
     display: flex;
     margin: 30px;
     margin-top: 40px;
@@ -189,11 +189,11 @@ option:hover {
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    background-color: var(--light-gray);
+    background-color: var(--red);
     font-family: "Barlow";
     font-weight: 700;
     border-radius: 30px;
-    color: var(--gray);
+    color: var(--white);
     margin-right: 170px;
 }
 
@@ -241,6 +241,7 @@ h5 {
     margin: 0%;
     margin-top: 15px;
     margin-right: 110px;
+    margin-left: 13px;
 }
 
 .product-price {
