@@ -229,6 +229,12 @@ h4 {
     flex-direction: column;
 }
 
+.shadow {
+    display: flex;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+}
+
 h5 {
     display: flex;
     font-family: "Barlow Semi Condensed";
@@ -243,6 +249,13 @@ h5 {
     margin-right: 110px;
     margin-left: 13px;
 }
+
+h6 {
+    display: flex;
+    font-size: 30px;
+}
+
+
 
 .product-price {
     display: flex;
@@ -306,6 +319,13 @@ h4>a:hover {
     margin-top: 20px;
     font-size: 25px;
     height: 700px;
+    align-items: center;
+}
+
+.longer-third {
+    width: calc(100% / 3);
+    background-color: var(--white);
+    height: 1150px;
     align-items: center;
 }
 
@@ -548,6 +568,14 @@ footer>section:nth-child(5)>img {
     margin-bottom: 1rem;
 }
 
-
+.footer-nav {
+    display: flex;
+    color: var(--white);
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 1vw;
+    align-items: center;
+}
 
 /* footer end */
