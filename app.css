@@ -551,3 +551,198 @@ footer>section:nth-child(5)>img {
 
 
 /* footer end */
+
+/* config pages */
+
+.config {
+    background-color: var(--off-black);
+    color: var(--white);
+}
+
+.config-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.config-footer a {
+  font-size: 2.5vw;
+  border-radius: 75px;
+}
+
+.config-button {
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    font-size: 4vw;
+    padding: 2vw;
+    border: solid 2px var(--red);
+    border-radius: 5px;
+    transition: background-color ease-in 200ms;
+}
+
+.config-img {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: center;
+    width: 50%;
+}
+
+section > .config-button {
+    font-size: 2.6vw;
+    width: 100%;
+    padding: 1.5vw;
+}
+
+.one-selection.config-button {
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    border-radius: 100px;
+}
+
+.config-button:hover {
+    background-color: var(--red);
+}
+
+.config-select {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 30%;
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+.config-select h1 {
+    font-size: 5vw;
+    margin-top: 2vw;
+}
+
+/* models */
+
+.big-top {
+    display: inline-block;
+    position: relative;
+}
+
+.big-top img {
+    width: 100vw;
+}
+
+h1.overlay-left {
+    color: var(--white);
+    font-size: 6vw;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+p.overlay-left {
+    color: var(--white);
+    font-size: 3vw;
+    position: absolute;
+    top: 16%;
+    left: 30.9%;
+    transform: translate(-50%, -50%);
+}
+
+.big-bottom {
+    display: inline-block;
+    position: relative;
+}
+
+.big-bottom img {
+    width: 100vw;
+}
+
+h1.overlay-right {
+    color: var(--white);
+    font-size: 6vw;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    transform: translate(50%, -50%);
+}
+
+p.overlay-right {
+    color: var(--white);
+    font-size: 3vw;
+    position: absolute;
+    top: 22%;
+    right: 17%;
+    transform: translate(50%, -50%);
+}
+
+.int {
+    position: absolute;
+    bottom: 15%;
+    left: 35%;
+    transform: translate(-50%, 50%);
+}
+
+.ext {
+    position: absolute;
+    bottom: 15%;
+    right: 35%;
+    transform: translate(50%, 50%);
+}
+
+/* HOME PAGE */
+
+.home-hero {
+    display: inline-block;
+    position: relative;
+}
+
+.home-hero img {
+    display: flex;
+    width: 100vw;
+}
+
+h1.overlay-bottom-1 {
+    color: var(--white);
+    font-size: 6vw;
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    transform: translate(50%, 50%);
+}
+
+p.overlay-bottom-2 {
+    color: var(--white);
+    font-size: 6vw;
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    right: 32%;
+    transform: translate(50%, 50%);
+}
+
+.featured-products {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-products > a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.featured-products > a > img {
+    display: flex;
+    width: 50%;
+}
+
+.featured-products h2 {
+    font-size: 4vw;
+}
+
+.featured-products p {
+    font-size: 3vw;
+}
