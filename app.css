@@ -776,11 +776,6 @@ p.overlay-bottom-2 {
     font-size: 3vw;
 }
 
-section {
-   
-    background-color: #FAF9F6;
-}
-
 
 .flex {
     margin-bottom: 2rem;
@@ -905,3 +900,5 @@ background-color: black;
     height: 100%;
     object-fit: contain;
 }
+
+/* tablets */
