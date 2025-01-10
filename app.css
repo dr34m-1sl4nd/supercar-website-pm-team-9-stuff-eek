@@ -266,6 +266,13 @@ h6 {
     font-weight: 600;
 }
 
+.cart-stuff {
+    display: flex;
+    align-self: flex-start;
+    font-size: 35px;
+    margin-left: 20%;
+}
+
 .strong {
     margin: 14px;
     margin-bottom: -200px;
