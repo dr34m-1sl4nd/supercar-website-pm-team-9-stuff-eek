@@ -664,7 +664,7 @@ h1.overlay-left {
     color: var(--white);
     font-size: 6vw;
     position: absolute;
-    top: 8%;
+    top: 5%;
     left: 15%;
     transform: translate(-50%, -50%);
 }
@@ -673,7 +673,7 @@ p.overlay-left {
     color: var(--white);
     font-size: 3vw;
     position: absolute;
-    top: 16%;
+    top: 14%;
     left: 30.9%;
     transform: translate(-50%, -50%);
 }
@@ -691,7 +691,7 @@ h1.overlay-right {
     color: var(--white);
     font-size: 6vw;
     position: absolute;
-    top: 10%;
+    top: 5%;
     right: 25%;
     transform: translate(50%, -50%);
 }
@@ -700,7 +700,7 @@ p.overlay-right {
     color: var(--white);
     font-size: 3vw;
     position: absolute;
-    top: 22%;
+    top: 18%;
     right: 17%;
     transform: translate(50%, -50%);
 }
