@@ -198,6 +198,20 @@ option:hover {
     margin-right: 170px;
 }
 
+.checkout-button {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--red);
+    border-radius: 30px;
+
+}
+
 h2 {
     font-family: "Barlow";
     font-weight: 700;
