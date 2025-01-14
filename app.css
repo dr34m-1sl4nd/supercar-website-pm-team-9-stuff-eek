@@ -509,6 +509,20 @@ a {
 
 /* END OF NAV BAR */
 
+/* account pages */
+.account-side {
+    display: flex;
+    flex-flow: column wrap;
+    color: var(--white);
+    background-color: var(--black);
+    width: 43rem;
+    padding: 3rem;
+    font-size: 30px;
+    text-align: center;
+    line-height: 3rem;
+}
+
+
 /* ANCHOR TAG CLASSES FOR THOSE CLICKY CLICK IMAGES */
 
 img>a {
