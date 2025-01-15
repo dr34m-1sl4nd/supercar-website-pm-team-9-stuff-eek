@@ -940,5 +940,25 @@ background-color: black;
 
 .acc-img {
     display: flex;
-    height: 50%;
+    height: 80%;
+}
+
+.acc-head {
+    display: flex;
+    margin: 5px;
+    justify-content: flex-start;
+    font-size: 80px;
+}
+
+.acc-text {
+    display: flex;
+
+}
+
+.account-side > h1 {
+    transition: color ease-out 150ms;
+}
+
+.account-side > h1:hover {
+    color: var(--red);
 }
