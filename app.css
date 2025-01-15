@@ -936,4 +936,9 @@ background-color: black;
     object-fit: contain;
 }
 
-/* tablets */
+/* account pages */
+
+.acc-img {
+    display: flex;
+    height: 50%;
+}
