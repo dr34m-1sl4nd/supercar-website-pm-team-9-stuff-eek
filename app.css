@@ -950,11 +950,6 @@ background-color: black;
     font-size: 80px;
 }
 
-.acc-text {
-    display: flex;
-
-}
-
 .account-side > h1 {
     transition: color ease-out 150ms;
 }
