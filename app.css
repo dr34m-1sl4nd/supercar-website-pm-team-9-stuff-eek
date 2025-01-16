@@ -936,4 +936,24 @@ background-color: black;
     object-fit: contain;
 }
 
-/* tablets */
+/* account pages */
+
+.acc-img {
+    display: flex;
+    height: 80%;
+}
+
+.acc-head {
+    display: flex;
+    margin: 5px;
+    justify-content: flex-start;
+    font-size: 80px;
+}
+
+.account-side > h1 {
+    transition: color ease-out 150ms;
+}
+
+.account-side > h1:hover {
+    color: var(--red);
+}
